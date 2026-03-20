@@ -266,7 +266,7 @@ $stmt->execute();
 
 ## 📞 Información de Contacto
 
-- **Teléfono**: +54 351 412-3456
+- **Teléfono**: 351 6741077 / 3492 585179
 - **Email**: info@bioartec.com.ar
 - **Ubicación**: Córdoba, Argentina
 

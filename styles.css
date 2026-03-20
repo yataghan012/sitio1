@@ -177,7 +177,10 @@ a {
 }
 
 .footer-logo .logo-image {
-    height: 48px;
+    height: 80px;
+    background: white;
+    padding: 8px;
+    border-radius: var(--radius-md);
 }
 
 .nav-toggle {
@@ -862,7 +865,7 @@ a {
 
 .product-image {
     position: relative;
-    background: linear-gradient(135deg, var(--gray-100), var(--gray-200));
+    background: white;
     aspect-ratio: 16/10;
     display: flex;
     align-items: center;
@@ -872,6 +875,18 @@ a {
 
 .image-placeholder {
     color: var(--gray-400);
+}
+
+.product-img-full {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    padding: var(--spacing-sm);
+    transition: transform var(--transition-base);
+}
+
+.product-card:hover .product-img-full {
+    transform: scale(1.05);
 }
 
 .product-badge {
