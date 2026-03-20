@@ -858,10 +858,8 @@ a {
     transition: all var(--transition-base);
 }
 
-.product-card:hover {
-    transform: translateY(-5px);
-    box-shadow: var(--shadow-xl);
-}
+
+
 
 .product-image {
     position: relative;
@@ -885,9 +883,8 @@ a {
     transition: transform var(--transition-base);
 }
 
-.product-card:hover .product-img-full {
-    transform: scale(1.05);
-}
+
+
 
 .product-badge {
     position: absolute;
